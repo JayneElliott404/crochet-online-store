@@ -1,15 +1,15 @@
-.container-fluid {
-background-color: rgb(230, 228, 228);
-padding-bottom: 20px;
-}
+body {
+    background-color: #F3EEEA;
+    font-family: "Afacad";
+    }
 
 .navbar {
-    font-family: "Afacad";
     padding: 0;
 }
 
 .navbar-brand {
     font-size: 2rem;
+    padding-left: 20px;
     padding-top: 24px;
 }
 
@@ -17,18 +17,12 @@ padding-bottom: 20px;
     font-size: 1.5rem;
   }
 
-body {
-background-color: rgb(230, 228, 228);
-}
-
-footer {
-    font-family: "Afacad";
-}
-
-/* Small devices (phones 320px to 767px */
+/* Small devices (phones up to 767px */
 @media (max-width: 767px) {
     .navbar-brand {
         font-size: 1.4rem;
+        padding-left: 0px;
+        padding-bottom: 15px;
     }
     
     .nav-link {
